@@ -1,0 +1,1 @@
+<h2 class="text-[28px] p-4 text-green-700">Công cụ quản lý website</h2>
