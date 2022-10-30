@@ -4,7 +4,7 @@ require_once "../../dao/binh-luan.php";
 require_once "../../dao/thong-ke.php";
 check_login();
 if (exist_param("ma_hh")) {
-    $ma_hh = $_REcodQUEST['ma_hh'];
+    $ma_hh = $_REQUEST['ma_hh'];
     if (exist_param("btn_delete")) {
         $ma_bl = $_REQUEST['ma_bl'];
         try {
