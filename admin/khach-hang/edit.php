@@ -55,7 +55,7 @@ if (is_array($items)) {
                 <input <?= !$vai_tro ? 'checked' : '' ?> type="radio" class="radio-inline" name="vai_tro" value="1" checked> Nhân viên
             </div>
         </div>
-        <div class="form-group col-sm-12 my-4">
+        <div class="form-group col-sm-12 my-4" style="padding-left: 0px; padding-right: 0px;">
             <button class="btn btn-outline-success bg-green-300 mx-3" name="btn_update">Cập nhật</button>
             <a href="index.php" class="btn btn-outline-success bg-green-300" name="btn_insert">
                 Thêm mới
