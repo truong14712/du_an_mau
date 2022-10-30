@@ -10,15 +10,6 @@
 <div class="flex item-center my-[8px] ">
 
 </div>
-<ul class=" my-3 pager flex justify-content-center align-self-center">
-    <li class="p-2 mx-3 "><a class="btn btn-outline-success btn-md" href="?btn_list&page_no=0">|&lt;</a></li>
-    <li class="p-2 mx-3 "><a class="btn btn-outline-success btn-md" href="?btn_list&page_no=<?= $_SESSION['page_no'] <= 0 ? $_SESSION['page_no'] : $_SESSION['page_no'] - 1 ?>">&lt;&lt;</a></li>
-    <li class="p-2 mx-3 "><a class="btn btn-outline-success btn-md" href="?btn_list&page_no=<?= $_SESSION['page_no'] + 1 ?>">&gt;&gt;</a></li>
-    <li class="p-2 mx-3 "><a class="btn btn-outline-success btn-md" href="?btn_list&page_no=<?= $_SESSION['page_count'] - 1 ?>">&gt;|</a></li>
-</ul>
-
-
-
 
 <form action="index.php" method="post">
     <table class="table table-bordered border-green-500 rounded">

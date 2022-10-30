@@ -37,6 +37,7 @@ if (is_array($items)) {
             <label for="">Hình ảnh</label>
             <input type="hidden" name="hinh" value="<?= $hinh ?>">
             <input type="file" name="up_hinh" class="form-control border-green-500">
+            <img src="<?= $hinh ?>" alt="" class="w-[30%]">
         </div>
     </div>
     <div class="row">
